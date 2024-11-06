@@ -7,7 +7,7 @@ public class Bill3 {
 		double amount = Double.parseDouble(args[3]);
 		double amountPerPerson = Math.ceil(amount/3);
 
-	    String str = "Dear " + name1 + ", " + name2 + " and " + name3 + ": pay " + amountPerPerson + " Shekels each.";
+	    String str = "Dear " + name3 + ", " + name2 + " and " + name1 + ": pay " + amountPerPerson + " Shekels each.";
 		System.out.println(str);
 	}
 }
